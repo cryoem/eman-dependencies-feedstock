@@ -23,5 +23,5 @@ azure:
   build_id: blank
 
 build_platform:
-  osx_arm64: linux_64
+  osx_arm64: osx_64
 test_on_native_only: true

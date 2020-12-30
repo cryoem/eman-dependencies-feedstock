@@ -10,7 +10,7 @@ build:
 
 requirements:
     run:
-        - {{ pin_subpackage('eman-deps', exact=True) }}
+#        - {{ pin_subpackage('eman-deps', exact=True) }}
         - cmake          3.14.*
 
 outputs:

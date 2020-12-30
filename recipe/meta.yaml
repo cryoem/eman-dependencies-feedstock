@@ -1,4 +1,5 @@
 {% set numpy_ver  = 1.17 %}
+{% set cmake_ver  = 3.14 %}
 
 package:
     name: eman-deps-dev
@@ -11,7 +12,7 @@ build:
 requirements:
     run:
 #        - {{ pin_subpackage('eman-deps', exact=True) }}
-        - cmake          3.14.*
+        - cmake          {{ cmake_ver }}
 
 outputs:
   - name: eman-deps
@@ -22,7 +23,7 @@ outputs:
         - pyopengl       3.1.5
 
       run_constrained:
-        - cmake          3.14.*
+        - cmake          {{ cmake_ver }}
 
   - name: eman-deps-cli
     requirements:

@@ -5,11 +5,9 @@ Home:
 
 Package license: 
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/cryoem/eman-deps-feedstock/blob/master/LICENSE.txt)
 
 Summary: Meta-package for eman2 dependencies
-
-
 
 Current build status
 ====================
@@ -47,7 +45,6 @@ Current release info
 | [![Conda Recipe](https://img.shields.io/badge/recipe-eman--deps-green.svg)](https://anaconda.org/cryoem/eman-deps) | [![Conda Downloads](https://img.shields.io/conda/dn/cryoem/eman-deps.svg)](https://anaconda.org/cryoem/eman-deps) | [![Conda Version](https://img.shields.io/conda/vn/cryoem/eman-deps.svg)](https://anaconda.org/cryoem/eman-deps) | [![Conda Platforms](https://img.shields.io/conda/pn/cryoem/eman-deps.svg)](https://anaconda.org/cryoem/eman-deps) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-eman--deps--cli-green.svg)](https://anaconda.org/cryoem/eman-deps-cli) | [![Conda Downloads](https://img.shields.io/conda/dn/cryoem/eman-deps-cli.svg)](https://anaconda.org/cryoem/eman-deps-cli) | [![Conda Version](https://img.shields.io/conda/vn/cryoem/eman-deps-cli.svg)](https://anaconda.org/cryoem/eman-deps-cli) | [![Conda Platforms](https://img.shields.io/conda/pn/cryoem/eman-deps-cli.svg)](https://anaconda.org/cryoem/eman-deps-cli) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-eman--deps--cxx-green.svg)](https://anaconda.org/cryoem/eman-deps-cxx) | [![Conda Downloads](https://img.shields.io/conda/dn/cryoem/eman-deps-cxx.svg)](https://anaconda.org/cryoem/eman-deps-cxx) | [![Conda Version](https://img.shields.io/conda/vn/cryoem/eman-deps-cxx.svg)](https://anaconda.org/cryoem/eman-deps-cxx) | [![Conda Platforms](https://img.shields.io/conda/pn/cryoem/eman-deps-cxx.svg)](https://anaconda.org/cryoem/eman-deps-cxx) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-eman--deps--dev-green.svg)](https://anaconda.org/cryoem/eman-deps-dev) | [![Conda Downloads](https://img.shields.io/conda/dn/cryoem/eman-deps-dev.svg)](https://anaconda.org/cryoem/eman-deps-dev) | [![Conda Version](https://img.shields.io/conda/vn/cryoem/eman-deps-dev.svg)](https://anaconda.org/cryoem/eman-deps-dev) | [![Conda Platforms](https://img.shields.io/conda/pn/cryoem/eman-deps-dev.svg)](https://anaconda.org/cryoem/eman-deps-dev) |
 
 Installing eman-deps-dev
 ========================
@@ -58,10 +55,10 @@ Installing `eman-deps-dev` from the `cryoem` channel can be achieved by adding `
 conda config --add channels cryoem
 ```
 
-Once the `cryoem` channel has been enabled, `eman-deps, eman-deps-cli, eman-deps-cxx, eman-deps-dev` can be installed with:
+Once the `cryoem` channel has been enabled, `eman-deps, eman-deps-cli, eman-deps-cxx` can be installed with:
 
 ```
-conda install eman-deps eman-deps-cli eman-deps-cxx eman-deps-dev
+conda install eman-deps eman-deps-cli eman-deps-cxx
 ```
 
 It is possible to list all of the versions of `eman-deps` available on your platform with:

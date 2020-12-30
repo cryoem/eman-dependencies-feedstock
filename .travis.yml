@@ -15,6 +15,11 @@ matrix:
       osx_image: xcode12u
       arch: amd64
 
+    - env: CONFIG=osx_arm64_ UPLOAD_PACKAGES=True PLATFORM=osx-64
+      os: osx
+      osx_image: xcode12u
+      arch: amd64
+
 script:
   - export CI=travis
   - export GIT_BRANCH="$TRAVIS_BRANCH"

@@ -17,7 +17,7 @@ Current build status
     <td>CircleCI</td>
     <td>
       <a href="https://circleci.com/gh/cryoem/eman-deps-feedstock">
-        <img alt="Linux,osx_arm64" src="https://img.shields.io/circleci/project/github/cryoem/eman-deps-feedstock/master.svg?label=Linux,osx_arm64">
+        <img alt="Linux" src="https://img.shields.io/circleci/project/github/cryoem/eman-deps-feedstock/master.svg?label=Linux">
       </a>
     </td>
   </tr><tr>
